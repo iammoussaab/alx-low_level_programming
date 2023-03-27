@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * print_sign : function that given the sign of number.
+ * print_sign - Determines if the input number
+ * greater, iqual or less than zero.
  *
- * @n : function parameter n The number to check the sign of.
+ * @n: The input number as an integer.
  *
- * Return : -1 if n < 0 print(+), 0 if n =0 print(0), 1 if n > 0 and print(-1).
+ * Return: 1 is greater than zero. 0 is zero.
+ * -1 is less than zero.
  */
 int print_sign(int n)
 {
