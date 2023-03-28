@@ -8,14 +8,26 @@
  */
 void times_table(void)
 {
-	int a, b;
+	int A, B, prod;
 
-	for (a = 0; a <= 9; a++)
+	for (A = 0; A <= 9; A++)
 	{
-		for (b = 0; b <= 9; b++)
+		_putchar('0');
+
+		for (B = 1; B <= 9; B++)
 		{
-			printf("%2d, ", a * b);
+			_putchar(',');
+			_putchar(' ');
+
+			prod = A * B;
+
+			if (prod <= 9)
+				_putchar(' ');
+			else
+				_putchar((prod / 10) + '0');
+
+			_putchar((prod % 10) + '0');
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 }
