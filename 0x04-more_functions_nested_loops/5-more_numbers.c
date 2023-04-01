@@ -11,7 +11,7 @@ void more_numbers(void)
 	int num;
 	int i;
 
-	for (num = 0; num <= 10; num++)
+	for (num = 48; num <= 10; num++)
 	{
 		for (i = 0; i <= 14; i++)
 		{
