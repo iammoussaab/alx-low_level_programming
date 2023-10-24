@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_listint - prints all the elements of a list.
@@ -18,4 +19,3 @@ size_t print_listint(const listint_t *h)
 	}
 	return (nod);
 }
-
